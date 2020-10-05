@@ -5,12 +5,15 @@ vue <template>
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
-    name: "Todos"
-}
+    name: "Todos", 
+    computed: mapGetters(['allTodos'])
+};
 </script>
 
-<style scoped>
+<style scoped> 
     body {
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         line-height: 1.6;
