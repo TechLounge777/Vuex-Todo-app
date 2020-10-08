@@ -29,7 +29,7 @@ export default {
         display: grid;
         grid-template-columns: repeat(3, 1fr) ;
         grid-gap: 1 rem;
-    }
+    } 
     .todo {
         border: 1px solid #ccc;
         background: #41b883;
